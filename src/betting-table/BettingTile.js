@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BettingTile extends React.Comonent {
+class BettingTile extends React.Component {
 
   constructor(props) {
     super(props)
