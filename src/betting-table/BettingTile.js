@@ -14,7 +14,7 @@ class BettingTile extends React.Component {
   render() {
     return (
       <button className="BettingTile" onClick={this.handleClick}>
-        bet
+        {this.props.id}
       </button>
     );
   }
